@@ -10,8 +10,8 @@ end decod_uno_de_cuatro;
 architecture arch of decod_uno_de_cuatro is
 begin -- Implementar decodificador 1 de 4
     with selector select uno_de_cuatro <=
-        "0001" when "00", -- Completar la tabla
-        "0010" when "01",
-        "0100" when "10",
-        "1000" when others;
+        "0000" when "00", -- Completar la tabla
+        "0000" when "01",
+        "0000" when "10",
+        "0000" when others;
 end arch;

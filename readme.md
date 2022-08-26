@@ -15,6 +15,6 @@ Un codificador "uno de cuatro" a binario tiene una entrada de cuatro bits, una s
 - Entrada "0100" -> Válido, código "10"
 - Entrada "0101" -> Inválido, más de un '1'
 
-Para ejecutar las pruebas `mingw32-make run` o `make run` según corresponda.
+Para ejecutar las pruebas `mingw32-make` o `make` según corresponda.
 
 El práctico está completo si pasa todas las pruebas.

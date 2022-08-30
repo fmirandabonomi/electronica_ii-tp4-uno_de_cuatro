@@ -22,7 +22,7 @@ run : force
 init: force
 	$(GHDL) -a $(GHDLFLAGS) util.vhd
 	$(GHDL) -a $(GHDLFLAGS) one_hot_tb.vhd
-	$(GHDL) -a $(GHDLFLAGS) cod.vhd
-	$(GHDL) -a $(GHDLFLAGS) decod.vhd
+	$(GHDL) -a $(GHDLFLAGS) impl_cod.vhd
+	$(GHDL) -a $(GHDLFLAGS) impl_decod.vhd
 
 force:
